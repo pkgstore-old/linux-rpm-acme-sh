@@ -1,7 +1,7 @@
 %global d_bin                   %{_bindir}
 %global release_prefix          100
 
-Name:                           ext-app
+Name:                           acme-sh
 Version:                        2.9.0
 Release:                        %{release_prefix}%{?dist}
 Summary:                        META-package for install apps
