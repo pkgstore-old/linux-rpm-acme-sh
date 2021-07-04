@@ -35,3 +35,10 @@ $ dnf install -y acme-sh
 ```
 $ dnf upgrade -y acme-sh
 ```
+
+## Remove
+
+```
+$ dnf erase -y acme-sh
+$ dnf copr remove pkgstore/acme-sh
+```
