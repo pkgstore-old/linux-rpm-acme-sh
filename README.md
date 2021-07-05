@@ -42,3 +42,10 @@ $ dnf upgrade -y acme-sh
 $ dnf erase -y acme-sh
 $ dnf copr remove pkgstore/acme-sh
 ```
+
+## Syntax
+
+```
+app.acme.sh --issue -d 'example.com' -w '/home/wwwroot/example.com'
+app.acme.sh --issue -d 'example.com' -d 'www.example.com' -d 'cp.example.com' -w '/home/wwwroot/example.com'
+```
