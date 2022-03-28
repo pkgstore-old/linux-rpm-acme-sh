@@ -2,7 +2,7 @@
 %global release_prefix          100
 
 Name:                           acme-sh
-Version:                        2.9.0
+Version:                        3.0.3
 Release:                        %{release_prefix}%{?dist}
 Summary:                        META-package for install apps
 License:                        GPLv3
@@ -48,5 +48,8 @@ An ACME Shell script.
 
 
 %changelog
+* Mon Mar 28 2022 Package Store <kitsune.solar@gmail.com> - 3.0.3-100
+- NEW: Acme.SH v3.0.3.
+
 * Sun Jul 04 2021 Package Store <kitsune.solar@gmail.com> - 2.9.0-100
 - INIT PKG.
