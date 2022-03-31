@@ -1,13 +1,11 @@
 %global d_bin                   %{_bindir}
-%global release_prefix          100
+%global release_prefix          1000
 
 Name:                           acme-sh
 Version:                        3.0.3
 Release:                        %{release_prefix}%{?dist}
 Summary:                        META-package for install apps
 License:                        GPLv3
-Vendor:                         Package Store <https://pkgstore.github.io>
-Packager:                       Kitsune Solar <kitsune.solar@gmail.com>
 
 Source10:                       app.acme.sh
 
@@ -48,8 +46,12 @@ An ACME Shell script.
 
 
 %changelog
-* Mon Mar 28 2022 Package Store <kitsune.solar@gmail.com> - 3.0.3-100
+* Thu Mar 31 2022 Package Store <pkgstore@mail.ru> - 3.0.3-1000
+- UPD: Rebuild by Package Store.
+- UPD: File "acme-sh.spec".
+
+* Mon Mar 28 2022 Package Store <pkgstore@mail.ru> - 3.0.3-100
 - NEW: Acme.SH v3.0.3.
 
-* Sun Jul 04 2021 Package Store <kitsune.solar@gmail.com> - 2.9.0-100
+* Sun Jul 04 2021 Package Store <pkgstore@mail.ru> - 2.9.0-100
 - INIT PKG.
